@@ -24,7 +24,7 @@ objects:
         contextDir: docker
         git:
           ref: master
-          uri: https://gitlab.cee.redhat.com/asanmukh/container-elastalert.git
+          uri: https://github.com/NaveenPoornachandra/elastalert_container.git
       strategy:
         type: Docker
         dockerStrategy:

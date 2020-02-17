@@ -46,14 +46,14 @@ setup(
         "Programming Language :: Python :: 3.6",
     ),
     python_requires=">3.5",
-    url="https://github.com/AICoE/log-anomaly-detector",
+    url="https://github.com/NaveenPoornachandra/logparser.git",
     author="Zak Hassan",
-    author_email="zak.hassan@redhat.com",
+    author_email="naveen.poornachandra@gmail.com",
     description="Log anomaly detector for streaming logs",
     long_description=long_description,
     long_description_content_type="text/markdown",
     dependency_links=[
-	"git+https://github.com/sevamoo/SOMPY.git@76b60ebd6ffd550b0f7faaf632451dfd68827bf7#egg=sompy",
+	"git+https://github.com/NaveenPoornachandra/SOMPY.git",
     ],
     install_requires=REQUIRED_PKG,
     entry_points="""
